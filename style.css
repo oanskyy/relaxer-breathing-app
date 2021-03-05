@@ -75,6 +75,7 @@ body {
   transform-origin: bottom center;
 }
 
+// Optimized for tablet 768px and smaller screens
 @media only screen and (max-width: 768px) { 
   .container {
     height: 200px;
