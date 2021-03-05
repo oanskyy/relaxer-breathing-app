@@ -8,14 +8,14 @@ const holdTime = totalTime / 5
 breathAnimation()
 
 function breathAnimation() {
-  text.innerText = "Inspira! (Breathe In!)"
+  text.innerText = "Inspiră! (Breathe In!)"
   container.className = "container grow"
 
   setTimeout(() => {
     text.innerText = "Ține respirația! (Hold!)"
 
     setTimeout(() => {
-      text.innerText = "Expira! (Breathe out!)"
+      text.innerText = "Expiră! (Breathe out!)"
       container.className = "container shrink"
     }, holdTime)
   }, breatheTime)
